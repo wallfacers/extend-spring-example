@@ -1,0 +1,18 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.wallfacers.mybatis.scanner.repository.CustomerDao">
+
+    <select id="getCustomerByCustomerId" parameterType="java.lang.Integer" resultType="Customer">
+        SELECT
+            ct.ct_customerid customerId,
+            ct.ct_customername customerName,
+            ct.ct_customerage customerAge
+        FROM
+            ct_customer ct
+        WHERE
+            ct.ct_customerid = #{customerId}
+    </select>
+
+</mapper>
