@@ -13,7 +13,7 @@
 
     <properties>
         <spring-version>5.1.3.RELEASE</spring-version>
-        <mybatis-versoin>3.5.2</mybatis-versoin>
+        <mybatis-versoin>3.5.6</mybatis-versoin>
         <mybatis-spring-version>2.0.2</mybatis-spring-version>
         <mysql-versoin>8.0.16</mysql-versoin>
         <hikari-versoin>3.3.1</hikari-versoin>
